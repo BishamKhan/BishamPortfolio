@@ -60,7 +60,7 @@ function AppHeader() {
 					<div>
 						<Link href="/">
 							{activeTheme === 'dark' ? (
-								 <p  style={{ fontWeight: 900, fontSize: '1.25rem', color:'#1E3851' }}>
+								 <p  style={{ fontWeight: 900, fontSize: '1.25rem', color:'#6366F1' }}>
 								 {'BISHAM KHAN'.split('').map((letter, index) => (
 								   <span style={{ transition: 'color 0.5s ease, margin-top 0.5s ease' }} key={index}>
 									 {letter}
