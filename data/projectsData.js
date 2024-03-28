@@ -13,7 +13,7 @@ export const projectsData = [
     title: "Taqreebat CRM",
     url: "https://taqreebat-frontend-crm.vercel.app",
     category: "Web Application",
-    img: "/images/taqreebat/p1.png",
+    img: "/images/taqreebat/p2.png",
     // img: "/images/web-project-2.jpg",
     ProjectHeader: {
       title: "Taqreebat CRM",
@@ -193,19 +193,13 @@ customer on electronic devices.
         // },
       ],
       ObjectivesHeading: "Objective",
-      ObjectivesDetails:
-        `
+      ObjectivesDetails: `
 To develop a user-friendly website that effectively communicates the benefits and scope of our comprehensive visa consultation service, providing clear guidance and information to individuals seeking immigration assistance, ultimately leading to increased engagement and conversion rates.
         `,
       Technologies: [
         {
           title: "Tools & Technologies",
-          techs: [
-            "JavaScript",
-            "React JS",
-            "TailwindCSS",
-            "AdobeXD",
-          ],
+          techs: ["JavaScript", "React JS", "TailwindCSS", "AdobeXD"],
         },
       ],
       ProjectDetailsHeading: "Challenge",
@@ -320,8 +314,7 @@ To develop a user-friendly website that effectively communicates the benefits an
         },
       ],
       ObjectivesHeading: "Objective",
-      ObjectivesDetails:
-        `
+      ObjectivesDetails: `
         The purpose for Taqreebat software is to digitalize the old 
         practice for event management system. This software will help user to book there event on just couple of clicks. The user just need to filter vendor according to there requirements and book your event from it.
         `,
@@ -332,7 +325,7 @@ To develop a user-friendly website that effectively communicates the benefits an
             "Next Js",
             "TypeScript",
             "Material UI",
-            "Figma",            
+            "Figma",
             "Node Js",
             "Express Js",
             "Mongo DB",
@@ -450,20 +443,13 @@ To develop a user-friendly website that effectively communicates the benefits an
         // },
       ],
       ObjectivesHeading: "Objective",
-      ObjectivesDetails:
-        `
+      ObjectivesDetails: `
 To develop and launch a cutting-edge NFT website showcasing "Trench of Blob" (TOB), a meticulously curated collection of 5,000 rare and unique pieces of marine life art. The objective is to provide art enthusiasts and collectors with exclusive access to the awe-inspiring marvels found in the deepest trenches of the seas, offering a captivating and immersive experience in the world of NFTs.
         `,
       Technologies: [
         {
           title: "Tools & Technologies",
-          techs: [
-            "React Js",
-            "JavaScript",
-            "Vue.js",
-            "Material UI",
-            "Figma",
-          ],
+          techs: ["React Js", "JavaScript", "Vue.js", "Material UI", "Figma"],
         },
       ],
       ProjectDetailsHeading: "Challenge",
@@ -522,6 +508,90 @@ To develop and launch a cutting-edge NFT website showcasing "Trench of Blob" (TO
       // 		url: 'https://www.youtube.com/c/StomanStudio',
       // 	},
       // ],
+    },
+  },
+  {
+    id: 5,
+    title: "Artistie",
+    url: "cloud-storage-platform",
+    category: "Website",
+    img: "/images/artistie/p1.png",
+    ProjectHeader: {
+      title: "Artistie",
+      publishDate: "Mar 27, 2022",
+      tags: "Website",
+    },
+    ProjectImages: [
+      {
+        id: uuidv4(),
+        title: "Home",
+        img: "/images/artistie/p1.png",
+      },
+      {
+        id: uuidv4(),
+        title: "About",
+        img: "/images/artistie/p2.png",
+      },
+      {
+        id: uuidv4(),
+        title: "Roadmap",
+        img: "/images/artistie/p3.png",
+      },
+    ],
+    ProjectInfo: {
+      ClientHeading: "About Client",
+      CompanyInfo: [
+        {
+          id: uuidv4(),
+          title: "Name",
+          details: "Artistie",
+        },
+        {
+          id: uuidv4(),
+          title: "Services",
+          details: "E-commerce Art market place",
+        },
+        {
+          id: uuidv4(),
+          title: "Website",
+          details: "https://artisttie.vercel.app/",
+        },
+      ],
+      ObjectivesHeading: "Objective",
+      ObjectivesDetails: `
+      Objective: 
+      To develop and launch an innovative e-commerce web application that serves as a vibrant marketplace for artists and art enthusiasts, providing a comprehensive platform for buying and selling a diverse range of artistic creations. This project aims to create an engaging and user-friendly online marketplace that connects artists with a global audience, fostering creativity, cultural exchange, and economic opportunities within the arts community.
+      `,
+      Technologies: [
+        {
+          title: "Tools & Technologies",
+          techs: ["Next Js", "TypeScript", "Material UI", "Tailwind"],
+        },
+      ],
+      ProjectDetailsHeading: "Description",
+      ProjectDetails: [
+        {
+          id: uuidv4(),
+          details:
+            "Our project involves the creation of an e-commerce web application tailored specifically for the art market. This platform will function as a dynamic marketplace where artists from various backgrounds and disciplines can showcase and sell their creations directly to buyers worldwide. The application will feature intuitive browsing and purchasing interfaces, allowing users to explore a vast array of artwork categories, including paintings, sculptures, photography, digital art, and more.",
+        },
+        {
+          id: uuidv4(),
+          details:
+            "Artists will have the ability to set up their own storefronts within the platform, where they can showcase their portfolios, provide descriptions of their work, set prices, and manage transactions. To ensure quality and authenticity, we will implement robust verification processes for artists and their artworks.",
+        },
+        {
+          id: uuidv4(),
+          details:
+            "For buyers, the platform will offer a seamless shopping experience with features such as advanced search filters, personalized recommendations, secure payment options, and transparent shipping policies. Additionally, users will have access to interactive features like reviews, ratings, and artist profiles to aid in their purchasing decisions.",
+        },
+        {
+          id: uuidv4(),
+          details:
+            "Our project aims to not only facilitate the buying and selling of art but also to foster a sense of community and appreciation for creativity. By connecting artists with a global audience, we aspire to promote cultural exchange, support emerging talent, and democratize access to art in all its forms.",
+        },
+      ],
+      SocialSharingHeading: "Share This",
     },
   },
   // {
