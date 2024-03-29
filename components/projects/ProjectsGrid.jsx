@@ -3,10 +3,13 @@ import { FiSearch } from 'react-icons/fi';
 import ProjectSingle from './ProjectSingle';
 import { projectsData } from '../../data/projectsData';
 import ProjectsFilter from './ProjectsFilter';
+import Link from 'next/link';
+import Button from '../reusable/Button';
 
-function ProjectsGrid() {
+function ProjectsGrid({moreProjects=false}) {
 	const [searchProject, setSearchProject] = useState();
 	const [selectProject, setSelectProject] = useState();
+	// const [moreProjects, setMoreProjects] = useState(false);
 
 	// @todo - To be fixed
 	// const searchProjectsByTitle = projectsData.filter((item) => {
@@ -25,6 +28,8 @@ function ProjectsGrid() {
 			item.category.charAt(0).toUpperCase() + item.category.slice(1);
 		return category.includes(selectProject);
 	});
+
+	console.log(moreProjects)
 
 	return (
 		<section className="py-5 sm:py-10 mt-5 sm:mt-10">
@@ -111,10 +116,24 @@ function ProjectsGrid() {
 					? selectProjectsByCategory.map((project, index) => {
 							return <ProjectSingle key={index} {...project} />;
 					  })
-					: projectsData.map((project, index) => (
+					: !moreProjects ? [...projectsData].slice(0, 6).map((project, index) => (
 							<ProjectSingle key={index} {...project} />
-					  ))}
+					  )) : projectsData.map((project, index) => (
+						<ProjectSingle key={index} {...project} />
+				  ))
+					  }
 			</div>
+
+{
+	!moreProjects && <div className="mt-10 sm:mt-15 flex justify-center">
+	<div className="font-general-medium flex items-center px-6 py-3 rounded-lg shadow-lg hover:shadow-xl bg-indigo-500 hover:bg-indigo-600 focus:ring-1 focus:ring-indigo-900 text-white text-lg sm:text-xl duration-300">
+		<Link href="/projects" aria-label="More Projects" passHref>
+			<Button title="More Projects" />
+		</Link>
+	</div>
+</div>
+}
+			
 		</section>
 	);
 }

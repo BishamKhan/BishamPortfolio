@@ -21,7 +21,7 @@ const socialLinks = [
 	{
 		id: 3,
 		icon: <FiTwitter />,
-		url: 'https://twitter.com/realstoman',
+		url: 'https://twitter.com',
 	},
 	{
 		id: 4,

@@ -154,7 +154,7 @@ function ProjectSingle(props) {
 				</div>
 			</div>
 
-			<RelatedProjects />
+			{/* <RelatedProjects /> */}
 		</div>
 	);
 }

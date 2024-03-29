@@ -512,13 +512,13 @@ To develop and launch a cutting-edge NFT website showcasing "Trench of Blob" (TO
   },
   {
     id: 5,
-    title: "Artistie",
+    title: "Artisttie",
     url: "cloud-storage-platform",
-    category: "Website",
+    category: "Web Application",
     img: "/images/artistie/p1.png",
     ProjectHeader: {
-      title: "Artistie",
-      publishDate: "Mar 27, 2022",
+      title: "Artisttie",
+      publishDate: "Feb 10, 2024",
       tags: "Website",
     },
     ProjectImages: [
@@ -589,6 +589,180 @@ To develop and launch a cutting-edge NFT website showcasing "Trench of Blob" (TO
           id: uuidv4(),
           details:
             "Our project aims to not only facilitate the buying and selling of art but also to foster a sense of community and appreciation for creativity. By connecting artists with a global audience, we aspire to promote cultural exchange, support emerging talent, and democratize access to art in all its forms.",
+        },
+      ],
+      SocialSharingHeading: "Share This",
+    },
+  },
+  {
+    id: 6,
+    title: "Artisttie Admin CRM",
+    url: "cloud-storage-platform",
+    category: "Web Application",
+    img: "/images/artistie/p4.png",
+    ProjectHeader: {
+      title: "Artisttie Admin CRM",
+      publishDate: "Jan 27, 2024",
+      tags: "Website",
+    },
+    ProjectImages: [
+      {
+        id: uuidv4(),
+        title: "Home",
+        img: "/images/artistie/p4.png",
+      },
+      {
+        id: uuidv4(),
+        title: "About",
+        img: "/images/artistie/p5.png",
+      },
+      {
+        id: uuidv4(),
+        title: "Roadmap",
+        img: "/images/artistie/p6.png",
+      },
+    ],
+    ProjectInfo: {
+      ClientHeading: "About Client",
+      CompanyInfo: [
+        {
+          id: uuidv4(),
+          title: "Name",
+          details: "Artistie",
+        },
+        {
+          id: uuidv4(),
+          title: "Services",
+          details: "E-commerce Art market place",
+        },
+        {
+          id: uuidv4(),
+          title: "Website",
+          details: "https://artisttie.vercel.app/",
+        },
+      ],
+      ObjectivesHeading: "Objective",
+      ObjectivesDetails: `
+      Objective: 
+      To develop and launch an innovative e-commerce web application that serves as a vibrant marketplace for artists and art enthusiasts, providing a comprehensive platform for buying and selling a diverse range of artistic creations. This project aims to create an engaging and user-friendly online marketplace that connects artists with a global audience, fostering creativity, cultural exchange, and economic opportunities within the arts community.
+      `,
+      Technologies: [
+        {
+          title: "Tools & Technologies",
+          techs: ["Next Js", "TypeScript", "Material UI", "Tailwind"],
+        },
+      ],
+      ProjectDetailsHeading: "Description",
+      ProjectDetails: [
+        {
+          id: uuidv4(),
+          details:
+            "Our project involves the creation of an e-commerce web application tailored specifically for the art market. This platform will function as a dynamic marketplace where artists from various backgrounds and disciplines can showcase and sell their creations directly to buyers worldwide. The application will feature intuitive browsing and purchasing interfaces, allowing users to explore a vast array of artwork categories, including paintings, sculptures, photography, digital art, and more.",
+        },
+        {
+          id: uuidv4(),
+          details:
+            "Artists will have the ability to set up their own storefronts within the platform, where they can showcase their portfolios, provide descriptions of their work, set prices, and manage transactions. To ensure quality and authenticity, we will implement robust verification processes for artists and their artworks.",
+        },
+        {
+          id: uuidv4(),
+          details:
+            "For buyers, the platform will offer a seamless shopping experience with features such as advanced search filters, personalized recommendations, secure payment options, and transparent shipping policies. Additionally, users will have access to interactive features like reviews, ratings, and artist profiles to aid in their purchasing decisions.",
+        },
+        {
+          id: uuidv4(),
+          details:
+            "Our project aims to not only facilitate the buying and selling of art but also to foster a sense of community and appreciation for creativity. By connecting artists with a global audience, we aspire to promote cultural exchange, support emerging talent, and democratize access to art in all its forms.",
+        },
+      ],
+      SocialSharingHeading: "Share This",
+    },
+  },
+  {
+    id: 7,
+    title: "Sitaar",
+    url: "cloud-storage-platform",
+    category: "Web Application",
+    img: "/images/sitaar/p1.png",
+    ProjectHeader: {
+      title: "Sitaar",
+      publishDate: "Feb 2, 2024",
+      tags: "Website",
+    },
+    ProjectImages: [
+      {
+        id: uuidv4(),
+        title: "Home",
+        img: "/images/sitaar/p1.png",
+      },
+      {
+        id: uuidv4(),
+        title: "About",
+        img: "/images/sitaar/p2.png",
+      },
+      {
+        id: uuidv4(),
+        title: "Roadmap",
+        img: "/images/sitaar/p3.png",
+      },
+    ],
+    ProjectInfo: {
+      ClientHeading: "About Client",
+      CompanyInfo: [
+        {
+          id: uuidv4(),
+          title: "Name",
+          details: "Sitaar",
+        },
+        {
+          id: uuidv4(),
+          title: "Services",
+          details: "AI generated Musics",
+        },
+        {
+          id: uuidv4(),
+          title: "Website",
+          details: "https://sitaar.vercel.app/",
+        },
+      ],
+      ObjectivesHeading: "Objective",
+      ObjectivesDetails: `
+      Objective: 
+      website project is to create a user-friendly platform that utilizes artificial intelligence (AI) to generate music based on prompts provided by the user. The project aims to offer a diverse range of music genres including hip hop, pop, trap, electro, happy, sad, rock, and more. The primary goal is to enable users to input their preferences or prompts and have the AI algorithm generate customized music compositions in real-time.
+      `,
+      Technologies: [
+        {
+          title: "Tools & Technologies",
+          techs: ["Next Js", "TypeScript", "Material UI"],
+        },
+      ],
+      ProjectDetailsHeading: "Description",
+      ProjectDetails: [
+        {
+          id: uuidv4(),
+          details:
+            "Our project is driven by the vision to redefine how music is both created and enjoyed, leveraging cutting-edge AI technology to empower users in their musical exploration.",
+        },
+        {
+          id: uuidv4(),
+          details:
+            "At the heart of our platform lies a sophisticated AI algorithm, meticulously trained on a vast array of musical styles and patterns. This algorithm serves as the maestro, interpreting user prompts and crafting bespoke compositions that resonate with their preferences. Whether you're in the mood for the infectious rhythms of hip hop, the catchy melodies of pop, the pulsating beats of trap, or the electrifying energy of electro, our AI is primed to deliver.",
+        },
+        {
+          id: uuidv4(),
+          details: `
+            But our platform is more than just a music generator – it's a gateway to a world of musical discovery. Dive into our carefully curated library, where each track is a testament to the AI's versatility and ingenuity. From uplifting tunes that evoke feelings of happiness to soul-stirring melodies that tug at the heartstrings, we offer a diverse spectrum of genres and moods to suit every taste and occasion.
+`,
+        },
+        {
+          id: uuidv4(),
+          details:
+            "Navigating through our platform is a breeze, thanks to our intuitive user interface. Simply input your desired prompts – whether it's a specific genre, mood, tempo, or instrumentation – and watch as the AI brings your vision to life in real-time. And with our seamless music player integrated directly into the platform, you can immerse yourself in the sonic tapestry of AI-generated music with just a click.",
+        },
+        {
+          id: uuidv4(),
+          details:
+            "But the magic doesn't end there. With our favorites feature, you can curate your own personalized playlist, saving your most beloved tracks for easy access whenever the mood strikes. Whether you're discovering new favorites or revisiting old classics, our platform puts the power of musical exploration firmly in your hands.",
         },
       ],
       SocialSharingHeading: "Share This",
