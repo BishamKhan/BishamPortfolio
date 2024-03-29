@@ -683,7 +683,7 @@ To develop and launch a cutting-edge NFT website showcasing "Trench of Blob" (TO
     title: "Sitaar",
     url: "cloud-storage-platform",
     category: "Web Application",
-    img: "/images/sitaar/p1.png",
+    img: "/images/Sitaar/p1.png",
     ProjectHeader: {
       title: "Sitaar",
       publishDate: "Feb 2, 2024",
@@ -693,17 +693,17 @@ To develop and launch a cutting-edge NFT website showcasing "Trench of Blob" (TO
       {
         id: uuidv4(),
         title: "Home",
-        img: "/images/sitaar/p1.png",
+        img: "/images/Sitaar/p1.png",
       },
       {
         id: uuidv4(),
         title: "About",
-        img: "/images/sitaar/p2.png",
+        img: "/images/Sitaar/p2.png",
       },
       {
         id: uuidv4(),
         title: "Roadmap",
-        img: "/images/sitaar/p3.png",
+        img: "/images/Sitaar/p3.png",
       },
     ],
     ProjectInfo: {
