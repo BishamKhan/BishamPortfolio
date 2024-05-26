@@ -305,7 +305,7 @@ To develop a user-friendly website that effectively communicates the benefits an
         {
           id: uuidv4(),
           title: "Website",
-          details: "https://taqreebat.com",
+          details: "https://taqreebat-web.vercel.app/",
         },
         {
           id: uuidv4(),
@@ -722,7 +722,7 @@ To develop and launch a cutting-edge NFT website showcasing "Trench of Blob" (TO
         {
           id: uuidv4(),
           title: "Website",
-          details: "https://sitaar.vercel.app/",
+          details: "https://sitara-music-app.vercel.app/",
         },
       ],
       ObjectivesHeading: "Objective",
